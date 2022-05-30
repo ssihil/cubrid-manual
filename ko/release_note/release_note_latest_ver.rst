@@ -85,7 +85,7 @@ User schema 개념 도입으로 사용자 별로 동일한 객체명을 사용�
 * info schema, show full tables 결과에 사용자명 포함되도록 변경되었다.
 * 11.2 이전 loaddb 파일은 11.2에서 수행할 수 있도록 user명.table명으로 수정하거나 -no-user-specified-name  옵션을 설정하여 loaddb를 수행할 수 있다.
 
-JavaSP의 'jdbc:default:connection:' 또는 getDefaultConnection()  사용 시 다음 함수 및 동작 변경됨
+JavaSP의 'jdbcdefaultconnection' 또는 getDefaultConnection()  사용 시 다음 함수 및 동작 변경됨
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * java.sql.DatabaseMetaData의 모든 function 지원하지 않는다.
