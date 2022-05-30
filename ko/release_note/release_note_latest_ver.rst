@@ -41,7 +41,7 @@ CUBRID 11.2는
 
 CUBRID 11.2는 동종 DBMS와 이종 DBMS간의 데이터베이스 링크를 제공하여 **연계성을 향상시켰다**. 또한 이 버전에서는 변경된 데이터를 추적할 수 있는 supplemental logging을 지원하여 CDC(Change data capture) 기능을 제공한다.
 
-CUBRID 11.2은 **더 빨라졌다**. 이 버전은 조건절 푸시다운(predicate pushdown) 과 뷰 변환(view transformation) 등의  질의 최적화(query optimization) 개선, 모든 서브질의에 Hash List Scan 지원,  캐시를 이용한 조건절 없는 count(*) 성능 개선 및 truncate table을 개선하여 성능을 더욱 향상시켰다.
+CUBRID 11.2은 **더 빨라졌다**. 이 버전은 조건절 푸시다운(predicate pushdown) 과 뷰 변환(view transformation) 등의  질의 최적화(query optimization) 개선, 모든 서브질의에 Hash List Scan 지원,  캐시를 이용한 조건절 없는 count(\*) 성능 개선 및 truncate table을 개선하여 성능을 더욱 향상시켰다.
 
 CUBRID 11.2는 트랜잭션별로 변경된 데이터의 원복 질의를 추출할 수 있는 플래시백(flashback) 기능을 제공하여 **관리자 편의성을 개선** 하였다.
 
