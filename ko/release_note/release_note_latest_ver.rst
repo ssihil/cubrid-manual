@@ -95,8 +95,8 @@ JavaSP의 'jdbc\:default\:connection\:' 또는 getDefaultConnection()  사용 �
 * cursor는 non-holdable로 변경되었다.
 * ResultSet은 non-updatable, non-scrollable, non-sensitive로 변경되었다.
 
-Truncate table 수행 시 FK의 set null 또는 cascade가 있는 경우 동작이 변경됨
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Truncate table 수행 시 FK의 set null 또는 cascade가 있는 경우 동작이 변경됨(:ref:`truncate` 참조)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Alter change/modify 시 기입하지 않은 컬럼 속성은 유지되게 변경되었으며, alter 구문으로 auto_increment, on update property를 제거할 수 없게 변경됨
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 조건절에 컬럼명만 존재하는 경우 오류 처리되도록 변경됨
