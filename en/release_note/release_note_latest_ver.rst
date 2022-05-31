@@ -95,8 +95,8 @@ The following functions and behavior changed when using "jdbc\:default\:connecti
  * The cursor is changed to non-holdable.
  * The ResultSet is changed to non-scrollable, non-sensitive and non-updatable.
 
-The behavior of the TRUNCATE TABLE changed if there is set null or cascade of FK(see :ref:`truncate`)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The behavior of the TRUNCATE TABLE changed if there is set null or cascade of FK (see :ref:`truncate`\)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Column properties not written during alter change/modify are changed to be maintained, and auto_increment and on update properties cannot be removed with the alter statement
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Changed to handle an error if only the column name exists in the where clause
